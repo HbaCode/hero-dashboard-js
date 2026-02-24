@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background: #eeaeca;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+h1 {
+  color: rgb(23, 152, 232);
+  padding: 0.6em;
+}
+.form-box {
+  padding: 1.3rem;
+}
+.form-box input {
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 6px;
+  outline: none;
+  background-color: transparent;
+}
+.form-box button {
+  background: #07a5e9;
+  padding: 7px;
+  border: 1px solid #999;
+  border-radius: 6px;
+  color: #eae7e7ec;
+  cursor: pointer;
+}
+#counter {
+  font-size: 1.5em;
+  margin: 0.5rem;
+  color: #fff;
+}
+#searchHero {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background-color: #dcd0d0;
+  border: 1px solid #fff;
+}
+#searchHero::placeholder {
+  color: #fff;
+  margin-top: 1em;
+}
+.grid {
+  display: flex;
+  padding: 2em;
+  gap: 20px;
+}
+.card {
+  border: 1px solid #333;
+  padding: 2.5em;
+  border-radius: 10px;
+}
+.card h3 {
+  color: rgb(90, 108, 224);
+  margin-bottom: 10px;
+}
+.card p {
+  color: #a84003c5;
+  font-weight: 600;
+}
+.card button {
+  border-radius: 6px;
+  background-color: #0c4f8e;
+  border: 1px solid #333;
+  color: #f1eded;
+  padding: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super hero Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hero Manager</h1>
+
+      <section class="form-box">
+        <input type="text" id="heroName" placeholder="Nom du héros" />
+        <input type="text" id="heroPower" placeholder="Son pouvoir" />
+        <button id="add-hero">Ajouter au Panthéon</button>
+      </section>
+
+      <p id="counter">Nombre de héros : 0</p>
+
+      <div id="hero-grid" class="grid"></div>
+      <input type="text" id="searchHero" placeholder="Filtrer par nom..." />
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
